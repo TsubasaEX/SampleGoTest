@@ -1,6 +1,12 @@
+//go:build unit
+// +build unit
+
+// go test -tags=unit -v
 package calc
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAddTwo(t *testing.T) {
 	t.Log("Testing TestAddTwo...")
@@ -25,5 +31,25 @@ func TestTableAddTwo(t *testing.T) {
 			t.Error("Test Failed: {} inputed, {} expected, {} received", data.input, data.expected, output)
 		}
 	}
+}
 
+type AddResult struct {
+	x        int
+	y        int
+	expected int
+}
+
+var addResults = []AddResult{
+	{1, 1, 2},
+	{2, 2, 4},
+	{3, 3, 6},
+}
+
+func TestAdd(t *testing.T) {
+	for _, test := range addResults {
+		result := Add(test.x, test.y)
+		if result != test.expected {
+			t.Fatal("Expected Result Not Given")
+		}
+	}
 }
