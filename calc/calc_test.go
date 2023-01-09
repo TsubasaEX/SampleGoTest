@@ -10,9 +10,19 @@ import (
 
 func TestAddTwo(t *testing.T) {
 	t.Log("Testing TestAddTwo...")
-	if AddTwo(2) != 4 {
-		t.Error("Expected 2 + 2 to equal 4")
-	}
+
+	t.Run("should return 4", func(t *testing.T) {
+		if AddTwo(2) != 4 {
+			t.Error("Expected 2 + 2 to equal 4")
+		}
+	})
+
+	t.Run("should return 6", func(t *testing.T) {
+		if AddTwo(4) != 6 {
+			t.Error("Expected 4 + 2 to equal 6")
+		}
+	})
+
 }
 
 func TestTableAddTwo(t *testing.T) {
