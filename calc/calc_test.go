@@ -23,6 +23,9 @@ func TestAddTwo(t *testing.T) {
 		}
 	})
 
+	t.Cleanup(func() {
+		t.Log("Cleanup ...")
+	})
 }
 
 func TestTableAddTwo(t *testing.T) {
