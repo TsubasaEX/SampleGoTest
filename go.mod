@@ -3,6 +3,8 @@ module github.com/TsubasaEX/SampleGoModTest
 go 1.19
 
 require (
+	github.com/TsubasaEX/SampleGoModPkg v1.0.9
+	github.com/TsubasaEX/SampleGoModPkg/v2 v2.0.3
 	github.com/fatih/color v1.13.0
 	github.com/stretchr/testify v1.8.1
 )

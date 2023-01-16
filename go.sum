@@ -1,3 +1,7 @@
+github.com/TsubasaEX/SampleGoModPkg v1.0.9 h1:XFvn2qxRhoxB0xnsN76+ikRaYqGWB9mq0rZTcmY4ZBE=
+github.com/TsubasaEX/SampleGoModPkg v1.0.9/go.mod h1:D8dRiw7uLEokhHQGcFimE/IVNdsKrL0DISOgaMfKDT4=
+github.com/TsubasaEX/SampleGoModPkg/v2 v2.0.3 h1:iySuyfvYCOv+SAaNTC0pURYZfz98gI+FWjW0P7tKYhI=
+github.com/TsubasaEX/SampleGoModPkg/v2 v2.0.3/go.mod h1:+ygUzWcQAzMw9Mrrl1MyRxB5HgwwZqq5xvP4Nh9gIG8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
