@@ -1,13 +1,3 @@
-github.com/TsubasaEX/SampleGoModPkg v1.0.0 h1:WKAIKjR+AF2f2qEjCffkTugxMP8jMPLn+J6fbCTHDUg=
-github.com/TsubasaEX/SampleGoModPkg v1.0.0/go.mod h1:D8dRiw7uLEokhHQGcFimE/IVNdsKrL0DISOgaMfKDT4=
-github.com/TsubasaEX/SampleGoModPkg v1.0.2 h1:N6He5BCNpXA0KLSaCKualOheg5Xd0h8Sdeax5eWTwYs=
-github.com/TsubasaEX/SampleGoModPkg v1.0.2/go.mod h1:D8dRiw7uLEokhHQGcFimE/IVNdsKrL0DISOgaMfKDT4=
-github.com/TsubasaEX/SampleGoModPkg v1.0.3 h1:NLoJMU53SWChnb81K/1zIylsdr6EOs8aWi3AVRpZOvY=
-github.com/TsubasaEX/SampleGoModPkg v1.0.3/go.mod h1:D8dRiw7uLEokhHQGcFimE/IVNdsKrL0DISOgaMfKDT4=
-github.com/TsubasaEX/SampleGoModPkg v1.0.4 h1:BTsl7ZdZcAi12BjIR9hJ07w7IUa5rh4QVm7d8qeeWas=
-github.com/TsubasaEX/SampleGoModPkg v1.0.4/go.mod h1:D8dRiw7uLEokhHQGcFimE/IVNdsKrL0DISOgaMfKDT4=
-github.com/TsubasaEX/SampleGoModPkg v1.0.5 h1:QzstfRXgXk1PJHW4BFjhSUTBFk1ol1jYPvMvDKfDqOI=
-github.com/TsubasaEX/SampleGoModPkg v1.0.5/go.mod h1:D8dRiw7uLEokhHQGcFimE/IVNdsKrL0DISOgaMfKDT4=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -32,6 +22,7 @@ golang.org/x/sys v0.0.0-20200116001909-b77594299b42/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c h1:F1jZWGFhYfh0Ci55sIpILtKKK8p3i2/krTr0H1rg74I=
 golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
